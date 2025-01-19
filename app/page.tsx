@@ -1,6 +1,7 @@
 "use client";
 
 import { ColorContrast } from "@/components/color-contrast";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
           <ColorContrast />
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }
